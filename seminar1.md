@@ -31,7 +31,10 @@ git - это программа...
 
     git commit -m "message/comment"
 
-git commit -am "message"
+Возможно объединение комманды *add* и *commit* с помощью флага *-am*, в котором **-a** обозначает *add*, **-m** обозначает *message* (по крайней мере я поняла эту команду так).
+Команда будет выглядеть  таким образом: 
+
+    git commit -am "message"
 
 git log
 git log --oneline
