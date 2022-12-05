@@ -12,17 +12,19 @@ git - это программа...
 для того, что проверить, в каком состоянии находится репозиторий, нужно ввести команду
 
     git status
-    git add
-    git commit
-    git commit -m "message"
-    git commit -am "message"
+после введения указанной командны, будет отражена информаций все ли файлы в репозитории ослеживаются и имеют актуальный статус 
 
-    git log
-    git log --oneline
-    git log --all
-    git log --all --oneline
+git add "filename"
+git commit
+git commit -m "message"
+git commit -am "message"
 
-    git diff 
-    git diff <hash1> <hash2>
+git log
+git log --oneline
+git log --all
+git log --all --oneline
 
-    git checkout <hash>
+git diff 
+git diff <hash1> <hash2>
+
+git checkout <hash>
